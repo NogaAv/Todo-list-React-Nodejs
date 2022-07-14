@@ -1,0 +1,26 @@
+.home-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100vw;
+    min-height: calc(100vh - 80px);
+
+    color: indigo;
+    text-decoration-line: underline;
+}
+
+.home-page button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.home-page img {
+    height: 250px;
+}
+.home-page h1 {
+    font-size: 40px;
+    text-align: center;
+}
